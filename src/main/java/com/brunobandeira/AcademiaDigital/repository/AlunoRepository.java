@@ -1,4 +1,7 @@
 package com.brunobandeira.AcademiaDigital.repository;
 
-public interface AlunoRepository {
+import com.brunobandeira.AcademiaDigital.entity.Aluno;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface AlunoRepository extends JpaRepository<Aluno, Long> {
 }

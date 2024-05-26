@@ -1,6 +1,7 @@
 package com.brunobandeira.AcademiaDigital.service;
 
 import com.brunobandeira.AcademiaDigital.entity.Aluno;
+import com.brunobandeira.AcademiaDigital.entity.AvaliacaoFisica;
 import com.brunobandeira.AcademiaDigital.entity.form.AlunoForm;
 import com.brunobandeira.AcademiaDigital.entity.form.AlunoUpdateForm;
 
@@ -41,4 +42,6 @@ public interface IAlunoService {
      * @param id - id do Aluno que será removido.
      */
     void delete(Long id);
+
+    List<AvaliacaoFisica> getlAllAvaliacaoFisicaId(Long id);
 }

@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/academia?useTimezone=true&serverTimezone=UTC&useLegacyDate
-    username: root
-    password: 0008
+    username: 
+    password: 
   jpa:
     show-sql: true
     hibernate:
